@@ -10,7 +10,7 @@ class Hero{
     this.radius =30;
     this.imagewidth=imgwidth;
     this.imagelength=imglength;
-    this.image=loadImage("/images/Superhero-01.png");
+    this.image=loadImage("images/Superhero-01.png");
     World.add(world, this.body);
   }
   display(){
